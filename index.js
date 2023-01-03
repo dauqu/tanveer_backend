@@ -11,10 +11,7 @@ const cors = require("cors");
 const allowedOrigins = [
   "http://localhost:3001",
   "http://localhost:3000",
-  "https://grocery-zip.vercel.app",
-  "http://localhost:4200",
-  "https://social-rouge.vercel.app",
-  "https://first-angular-nine.vercel.app",
+  "https://tanveerbackend-production.up.railway.app",
   "http://localhost:4000",
 ];
 
