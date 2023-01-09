@@ -37,6 +37,7 @@ app.use("/api/register", require("./routes/register"));
 app.use("/api/login", require("./routes/login"));
 app.use("/api/categories", require("./routes/categories"));
 app.use("/api/product", require("./routes/product"));
+app.use("/api/shop", require("./routes/shop"));
 app.use("/api/cart", require("./routes/cart"));
 app.use("/api/search", require("./routes/search"));
 app.use("/api/orders", require("./routes/orders"));

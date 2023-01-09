@@ -39,6 +39,16 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+//get all podcucts by shop id
+router.get("/shop/:shopid", async (req, res) => {
+  const {shopid} = req.params;
+  try {
+    const allProducts = await ProductSchema.find({shopId: shopid});
+    return res.json({message:"Shop products found",products: allProducts, status: "success" })
+  } catch (error) {
+    return res.json({message:"Shop products found", status: "success" })
+  }
+})
 //Get all product_detail
 router.get("/", async (req, res) => {
   try {
