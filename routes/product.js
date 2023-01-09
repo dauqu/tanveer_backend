@@ -16,6 +16,7 @@ router.post("/", upload.single("image"), async (req, res) => {
       image: url + "/medias/" + req.file.filename,
       price: req.body.price,
       category_id: req.body.category_id,
+      shopId: req.body.shopId
     });
     await add_product.save();
     res.status(200).json({
