@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 4000;
 const cors = require("cors");
 //Loop of allowed origins
 const allowedOrigins = [
-  "http://localhost:3001",
   "http://localhost:3000",
   "https://tanveerbackend-production.up.railway.app",
   "http://localhost:4000",
