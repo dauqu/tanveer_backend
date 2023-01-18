@@ -43,6 +43,7 @@ app.use("/api/orders", require("./routes/orders"));
 app.use("/api/address", require("./routes/address"));
 app.use("/api/profile", require("./routes/profile"));
 app.use("/api/users", require("./routes/users"));
+app.use("/api/logout", require("./routes/logout"));
 
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
