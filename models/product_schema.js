@@ -23,6 +23,11 @@ const ProductsSchema = mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  shopId: {
+    type: mongoose.Types.ObjectId,
+    required: true,
+    ref: "Shop"
+  }
 });
 
 module.exports = mongoose.model("products", ProductsSchema);
