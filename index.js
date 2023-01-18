@@ -14,6 +14,7 @@ const allowedOrigins = [
   "http://localhost:4000",
   "https://tanveer-frontend.vercel.app",
   "https://grocery.dauqu.host",
+  "https://tanveer-admin-frontend.vercel.app",
 ];
 
 app.use(
