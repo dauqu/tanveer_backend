@@ -10,7 +10,6 @@ const cors = require("cors");
 //Loop of allowed origins
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://tanveerbackend-production.up.railway.app",
   "http://localhost:4000",
   "https://tanveer-frontend.vercel.app",
   "https://grocery.dauqu.host",
